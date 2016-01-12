@@ -31,4 +31,11 @@
     
   </dependencies>
   
+<distributionManagement>
+    <repository>
+      <id> idRepo</id>
+      <name> nombreRepo</name>
+      <url> file:\\${project.build.directory} </url>
+    </repository>
+</distributionManagement>
 </project>
