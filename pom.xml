@@ -3,8 +3,8 @@
   <modelVersion>4.0.0</modelVersion>
 
   <groupId>es.egc</groupId>
-  <artifactId>ex2</artifactId>
-  <version>3.0-SNAPSHOT</version>
+  <artifactId>15412081B</artifactId>
+  <version>2</version>
   <packaging>jar</packaging>
 
   <name>ex2</name>
@@ -21,6 +21,14 @@
       <version>3.8.1</version>
       <scope>test</scope>
     </dependency>
+    
+   <dependency>
+     <groupId>log4j</groupId>
+     <artifactId>log4j</artifactId>
+     <version>1.2.16</version>
+     <scope>runtime</scope>
+</dependency>
+    
   </dependencies>
 
 </project>
